@@ -98,17 +98,17 @@
 
 
 
-  <meta name="description" content="如何让Hexo博客网址使用全英文路径  方案1使用hexo-abbrlink插件hexo-abbrlink 文章链接唯一化 1234# 安装npm install hexo-abbrlink --save#使用：修改_config.ymlpermalink: :abbrlink/">
+  <meta name="description" content="命令：创建一篇文章1$ hexo new [layout] &amp;lt;title&amp;gt; 文章链接唯一化方案1 使用插件 hexo-abbrlink  1234# 安装npm install hexo-abbrlink --save#使用：修改_config.ymlpermalink: :abbrlink/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo实战记录(二)：写作配置">
 <meta property="og:url" content="https://dengciping0716.github.io/61542/index.html">
 <meta property="og:site_name" content="平头哥的客人">
-<meta property="og:description" content="如何让Hexo博客网址使用全英文路径  方案1使用hexo-abbrlink插件hexo-abbrlink 文章链接唯一化 1234# 安装npm install hexo-abbrlink --save#使用：修改_config.ymlpermalink: :abbrlink/">
+<meta property="og:description" content="命令：创建一篇文章1$ hexo new [layout] &amp;lt;title&amp;gt; 文章链接唯一化方案1 使用插件 hexo-abbrlink  1234# 安装npm install hexo-abbrlink --save#使用：修改_config.ymlpermalink: :abbrlink/">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-15T15:30:37.733Z">
+<meta property="og:updated_time" content="2019-04-05T14:09:46.215Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo实战记录(二)：写作配置">
-<meta name="twitter:description" content="如何让Hexo博客网址使用全英文路径  方案1使用hexo-abbrlink插件hexo-abbrlink 文章链接唯一化 1234# 安装npm install hexo-abbrlink --save#使用：修改_config.ymlpermalink: :abbrlink/">
+<meta name="twitter:description" content="命令：创建一篇文章1$ hexo new [layout] &amp;lt;title&amp;gt; 文章链接唯一化方案1 使用插件 hexo-abbrlink  1234# 安装npm install hexo-abbrlink --save#使用：修改_config.ymlpermalink: :abbrlink/">
 
 
 
@@ -373,12 +373,24 @@
                 
               
 
-              <time title="创建时间：2019-03-15 21:37:21 / 修改时间：23:30:37" itemprop="dateCreated datePublished" datetime="2019-03-15T21:37:21+08:00">2019-03-15</time>
+              <time title="创建时间：2019-03-16 21:37:21" itemprop="dateCreated datePublished" datetime="2019-03-16T21:37:21+08:00">2019-03-16</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-04-05 22:09:46" itemprop="dateModified" datetime="2019-04-05T22:09:46+08:00">2019-04-05</time>
               
             
           </span>
@@ -430,13 +442,12 @@
       
 
       
-        <blockquote>
-<p>如何让Hexo博客网址使用全英文路径</p>
-</blockquote>
-<h2 id="方案1"><a href="#方案1" class="headerlink" title="方案1"></a>方案1</h2><h3 id="使用hexo-abbrlink插件"><a href="#使用hexo-abbrlink插件" class="headerlink" title="使用hexo-abbrlink插件"></a>使用hexo-abbrlink插件</h3><p><a href="https://github.com/rozbo/hexo-abbrlink" target="_blank" rel="noopener">hexo-abbrlink</a> 文章链接唯一化</p>
+        <h2 id="命令：创建一篇文章"><a href="#命令：创建一篇文章" class="headerlink" title="命令：创建一篇文章"></a>命令：创建一篇文章</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="文章链接唯一化"><a href="#文章链接唯一化" class="headerlink" title="文章链接唯一化"></a>文章链接唯一化</h2><p>方案1 使用插件 <a href="https://github.com/rozbo/hexo-abbrlink" target="_blank" rel="noopener">hexo-abbrlink</a> </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 安装</span><br><span class="line">npm install hexo-abbrlink --save</span><br><span class="line">#使用：修改_config.yml</span><br><span class="line">permalink: :abbrlink/</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<h2 id="方案2"><a href="#方案2" class="headerlink" title="方案2"></a>方案2</h2><h3 id="修改文章网址配置"><a href="#修改文章网址配置" class="headerlink" title="修改文章网址配置"></a>修改文章网址配置</h3><blockquote>
+<p>方案2 修改文章网址配置</p>
+<blockquote>
 <p><code>_config.yml</code> 文件中修改 permalink</p>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title # 这是原配置</span><br><span class="line">permalink: :category/:id/</span><br></pre></td></tr></table></figure>
@@ -560,7 +571,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -579,7 +590,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -598,7 +613,13 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -669,7 +690,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#方案1"><span class="nav-number">1.</span> <span class="nav-text">方案1</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#使用hexo-abbrlink插件"><span class="nav-number">1.1.</span> <span class="nav-text">使用hexo-abbrlink插件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#方案2"><span class="nav-number">2.</span> <span class="nav-text">方案2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#修改文章网址配置"><span class="nav-number">2.1.</span> <span class="nav-text">修改文章网址配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#category-map实现分组映射"><span class="nav-number">2.2.</span> <span class="nav-text">category_map实现分组映射</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#命令：创建一篇文章"><span class="nav-number">1.</span> <span class="nav-text">命令：创建一篇文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章链接唯一化"><span class="nav-number">2.</span> <span class="nav-text">文章链接唯一化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#category-map实现分组映射"><span class="nav-number">2.1.</span> <span class="nav-text">category_map实现分组映射</span></a></li></ol></li></ol></div>
             
 
           </div>
